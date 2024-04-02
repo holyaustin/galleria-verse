@@ -20,17 +20,17 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 module.exports = {
   solidity: "0.8.20",
   networks: {
-    testnet: {
-      url: "https://data-seed-prebsc-1-s3.binance.org:8545/",
+    neonlabs: {
+      url: "https://devnet.neonevm.org",
       accounts: [process.env.ACCOUNT_PRIVATE_KEY],
+      network_id: "Neon EVM Devnet",
+      chainId: 245022926,
+      allowUnlimitedContractSize: false,
+      timeout: 1000000,
+      isFork: true,
       //gasPrice: 35000000000,
       saveDeployments: true,
     },
-    mainnet: {
-      url: "https://bsc-dataseed1.binance.org/",
-      accounts: [process.env.ACCOUNT_PRIVATE_KEY],
-      gasPrice: 35000000000,
-      saveDeployments: true,
-    },
+
   }
 };

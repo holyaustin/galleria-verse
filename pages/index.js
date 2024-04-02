@@ -4,11 +4,16 @@ import Link from 'next/link'
 import Footer from './Footer'
 import Header from './Header'
 import How from './How'
-import ConnectWallet from "../components/ConnectWallet";
-
+//import ConnectWallet from "../components/ConnectWallet";
+import dynamic from 'next/dynamic'
 import { config } from '../dapp.config'
 import Roadmap from './Roadmap'
 import Apes from './Apes';
+
+const DynamicHeader = dynamic(() => import('./Header'), {
+  ssr: false,
+  loading: () => <p>Loading...</p>,
+})
 
 export default function Home() {
   return (
@@ -85,8 +90,11 @@ export default function Home() {
             </ul>
           </nav>
         </div>
+         <DynamicHeader />
 
-        <Header />
+      {/**  <Header /> */}
+
+
         <h2 className="font-display text-jacarta-700 mb-8 text-center text-3xl dark:text-white">
           <span className="mr-1 inline-block h-6 w-6 bg-contain bg-center text-xl"></span>
           <span className="animate-pulse"></span>
@@ -100,6 +108,7 @@ export default function Home() {
           
         </h2>
       </header>
+      
       <How />
       <Apes/>
       <Roadmap />

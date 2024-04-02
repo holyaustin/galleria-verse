@@ -7,6 +7,7 @@ const Header = () => {
   return (
     <section className="af a2o a2p a38 a39 a3a a1E[150px] a1F">
       <div className="ar a2 a1 a3b a30 a4" />
+      
       <div className="ae">
         <div className="a1R a3 a1S a5">
           <div className="a4 ak lg:a1T/2">
@@ -18,9 +19,9 @@ const Header = () => {
                 </span>{' '}
                 you digital collectibles today.
               </h1>
-              <p className="a2e a1Q a1o a3c a1t md:a3d">
+              <span className="a2e a1Q a1o a3c a1t md:a3d">
               Galleria is the first African web3 Museum + SocialFi project on Blockchain. We shall be taking you through series of African heritage as you journey with us in this adventure and the best part is that you shall be collecting your digital collectibles as you tour. Enjoy tourism the African way.
-              </p>
+              </span>
               <div className="flex flex-wrap items-center">
 
 
@@ -33,6 +34,7 @@ const Header = () => {
 
           </div>
           <div className="a4 ak lg:a1T/2">
+           
             <div className="a1L  ">
              {/**  <img src="/galverse/1.webp" alt="meta image" className="a1J aj" />
               Video */}
@@ -45,9 +47,11 @@ const Header = () => {
                 loop
                  />
             </div>
+
           </div>
         </div>
       </div>
+      
       <div>
         <span className="ar a3e a3f a3b">
           <svg

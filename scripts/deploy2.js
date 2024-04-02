@@ -1,4 +1,5 @@
 // const hre = require("hardhat");
+require('@nomiclabs/hardhat-etherscan');
 const fs = require('fs');
 
 const main = async() => {

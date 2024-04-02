@@ -1,2 +1,2 @@
 
-  export const galleria2Address = "0xD2D6181276c608ca5208955fb68D27332ccCD264"
+  export const galleria2Address = "0x5E4e5347eB417982375Ef9BDe0B77F4322FCF79F"

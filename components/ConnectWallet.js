@@ -24,7 +24,7 @@ const uauth = new UAuth({
   clientID: "58971f20-5524-49c9-b021-72c37275da1a",
   redirectUri:
     process.env.NODE_ENV === "production"
-      ? "https://galleria-museum.vercel.app/"
+      ? "https://galleria-verse.vercel.app/"
       : "http://localhost:3000",
 });
 
@@ -51,12 +51,12 @@ const ConnectWallet = () => {
       try {
         await ethereum.request({
           method: 'wallet_switchEthereumChain',
-          params: [{ chainId: '0x29' }],
+          params: [{ chainId: '0xe9ac0ce' }],
         });
       } catch (switchError) {
         if (switchError.code === 4902) {
           // You can make a request to add the chain to wallet here
-          console.log('Telos Testnet has not been added to the wallet!')
+          console.log('Neon Devnet has not been added to the wallet!')
         }
       }
   }

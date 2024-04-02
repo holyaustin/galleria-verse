@@ -10,23 +10,23 @@ const Header = () => {
       
       <div className="ae">
         <div className="a1R a3 a1S a5">
-          <div className="a4 ak lg:a1T/2">
+          <div className="a4 ak lg:a1T/2 text-justify">
 
-              <h1 className="font-bold mb-6 text-center text-5xl dark:text-white md:text-left lg:text-6xl xl:text-7xl pb-2">
-               African Museum meets the SocialFi{' '}
+              <h1 className="font-bold mb-6 text-justify text-5xl dark:text-white md:text-left lg:text-6xl xl:text-7xl pb-2"> 
+               African Museum meets SOLANA{' '} <br />
                 <span className="text-orange-200 font-thin font-coiny underline decoration-wavy">
-                  mint
+                  mint you digital collectibles now.
                 </span>{' '}
-                you digital collectibles today.
+                
               </h1>
-              <span className="a2e a1Q a1o a3c a1t md:a3d">
-              Galleria is the first African web3 Museum + SocialFi project on Blockchain. We shall be taking you through series of African heritage as you journey with us in this adventure and the best part is that you shall be collecting your digital collectibles as you tour. Enjoy tourism the African way.
+              <span className="text-justify text-2xl text-white">
+              Galleria is the first African web3 Museum project on SOLANA Blockchain through storytelling. Take a walk through series of African heritage.  As you tour with us in this adventure, make sure to mint your digital collectibles. Enjoy tourism the African way.
               </span>
-              <div className="flex flex-wrap items-center">
+              <div className="flex flex-wrap items-center "> 
 
 
                 <div
-                  className="a1Y a10 a5 a1Z a1f a1y a1z aP a1s aW aX aZ a1w hover:a1B hover:a1C"
+                  className="mt-5 a1Y a10 a5 a1Z a1f a1y a1z aP a1s aW aX aZ a1w hover:a1B hover:a1C"
                 >
                  <ConnectWallet />
                 </div>

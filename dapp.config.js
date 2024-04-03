@@ -4,7 +4,7 @@ const RPC_URL = process.env.NEXT_PUBLIC_ALCHEMY_RPC_URL
 const config = {
   title: 'Galleria',
   description: 'First African web3 Museum for preserving the African heritage through story telling',
-  contractAddress: '0xD547726541FB37dB19fDB263f4855bA969034071',
+  contractAddress: '0x8D36089AB6eFdB3FEb2D8Ed42F7eC80f3c6d2b11',
   maxMintAmount: 10,
   presaleMaxMintAmount: 3,
   price: 0.01

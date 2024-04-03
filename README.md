@@ -1,5 +1,7 @@
 # Galleria-Fi : First African SocialFi Museum tourism for preserving the African heritage through story telling
 
+First African web3 Museum for preserving the African heritage through story telling
+
 ### BNBChain Hackathon Project: Building Smart and Fully-On-Chain Applications
 
 ## Introduction
@@ -10,7 +12,7 @@
 
 ### 1. Project / Team name
 
-Galleria-fi
+Galleria-verse
 
 ### 2. Short description about the project
 
@@ -28,9 +30,9 @@ twitter (X) : @holyaustin
 
 ### 4. Repository with project’s code and demo site
 
-<https://github.com/holyaustin/galleria-fi>
+<https://github.com/holyaustin/galleria-verse>
 
-<https://galleria-fi.vercel.app/>
+<https://galleria-verse.vercel.app/>
 
 ### 5. Video demo (90 seconds) and/or Presentation (10 slides max)
 
@@ -53,7 +55,7 @@ Client: Next.js, TailwindCSS, web3.js
 
 web3:  Hardhat, ethers.js, IPFS / Filecoin, XMTP
 
-BlockChain: BSC Testnet
+BlockChain: Neon Devnet (Solana EVM)
 
 ## To run the dapp Locally
 

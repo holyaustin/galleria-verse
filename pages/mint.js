@@ -258,7 +258,7 @@ export default function Mint() {
                 Contract Address
               </h3>
               <a
-                href={`https://rinkeby.etherscan.io/address/${config.contractAddress}#readContract`}
+                href={`https://devnet.neonscan.org/address/${config.contractAddress}#readContract`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-200 mt-4"

@@ -12,7 +12,6 @@ import Image from 'next/image';
 import { rgba } from 'polished';
 import Popup from 'reactjs-popup';
 
-
 export default function ViewFiles() {
   const router = useRouter();
 
@@ -21,7 +20,7 @@ export default function ViewFiles() {
   async function Page1() {
     console.log("Page 1 clicked");
     router.push({
-        pathname: "/page1",
+      pathname: "/page1",
       });
   }
 

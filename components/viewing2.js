@@ -36,7 +36,7 @@ export default function ViewFile() {
   async function Next() {
     router.push("/page3");
   }
-  const rpcUrl = "https://data-seed-prebsc-1-s3.binance.org:8545/";
+  const rpcUrl = "https://neon-evm-devnet.drpc.org";
 
    const { query: id } = router; 
    const props =  id ;

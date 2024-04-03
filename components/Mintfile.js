@@ -163,7 +163,7 @@ const MintFile = () => {
           </div>
 
           <button type="button" onClick={(e) => mintNFTFile(e, uploadedFile)} className="font-bold mt-20 bg-yellow-500 text-white text-2xl rounded p-4 shadow-lg">
-            Publish NFT to Marketplace
+            Publish to Museum Marketplace
           </button>
         </div>
       </div>

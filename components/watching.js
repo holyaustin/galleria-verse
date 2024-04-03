@@ -8,13 +8,9 @@ import axios from "axios";
 import { useRouter } from 'next/router'
 import { useNavigate, useLocation } from "react-router-dom";
 import Web3Modal from "web3modal";
-// import { Player } from '@livepeer/react';
 import Image from 'next/image';
 import { rgba } from 'polished';
 import ShareLink from "react-twitter-share-link";
-//import Popup from 'reactjs-popup';
-//import 'reactjs-popup/dist/index.css';
-
 import blenderPoster from '../public/galverse/logo.png';
 import fileNFT from "../artifacts/contracts/Galleria.sol/Galleria.json";
 import { galleriaAddress } from "../config";
@@ -86,12 +82,9 @@ export default function Watching() {
       let transaction = await contract.createFile(url, { value: listingPrice })
       await transaction.wait()
       alert("NFT Successfully collected");
-  
-    
-
   }
 
-  const rpcUrl = "https://data-seed-prebsc-1-s3.binance.org:8545/";
+  const rpcUrl = "https://neon-evm-devnet.drpc.org";
    // const rpcUrl = "localhost";
 
    const { query: vid } = router; 
@@ -275,7 +268,7 @@ export default function Watching() {
 		<div className="col-span-3 text-white pt-3  text-xl flex items-center justify-center">
     <div className="p-4">
               <button type="button" className="w-full bg-blue-800 text-white font-bold py-2 px-12 border-b-4 border-blue-200 hover:border-blue-500 rounded-full" onClick={() => Claim()}>
-                Buy 2 TLOS</button>
+                Buy 2 SOL</button>
                 </div>
                 <div className="p-4">
                   <button type="button" className="w-full bg-blue-800 text-white font-bold py-2 px-12 border-b-4 border-blue-200 hover:border-blue-500 rounded-full">
@@ -290,7 +283,7 @@ export default function Watching() {
                   </button>
                 </div>
                 <div className="p-4">
-                <ShareLink link="https://galleria-museum.vercel.app/marketplace" text="Galleria - First African web3 Museum for preserving the African heritage through storytelling! @Memoi_africa, @hellotelos, and @telosdevelopers" hashtags="Galleria telos web3 museum">
+                <ShareLink link="https://galleria-verse.vercel.app/marketplace" text="Galleria - First African web3 Museum for preserving the African heritage through storytelling!s" hashtags="Galleria Solana web3 museum">
               {(link) => (
                   <button type="button" className="w-full bg-blue-800 text-white font-bold py-2 px-12 border-b-4 border-blue-200 hover:border-blue-500 rounded-full">                   
                   <a href={link} target="_blank" rel="noreferrer">Share on Twitter</a></button>

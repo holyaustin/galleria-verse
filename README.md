@@ -1,8 +1,8 @@
-# Galleria-Fi : First African SocialFi Museum tourism for preserving the African heritage through story telling
+# Galleria-Verse : First African SocialFi Museum for preserving the African heritage through story telling
 
 First African web3 Museum for preserving the African heritage through story telling
 
-### BNBChain Hackathon Project: Building Smart and Fully-On-Chain Applications
+### Renaissence Hackathon Project: Building Smart and Fully-On-Chain Applications
 
 ## Introduction
 
@@ -20,13 +20,11 @@ Galleria - First African web3 Museum for preserving the African heritage through
 
 ### 3. Discord and Telegram username for the team’s person of contact
 
-discord old - holyaustin#3735
-
-discord new - holyaustin
+discord new - holyaustin and glochain
 
 telegram - @holyaustin
 
-twitter (X) : @holyaustin
+twitter (X) : @holyaustin and @gloAustin
 
 ### 4. Repository with project’s code and demo site
 
@@ -38,15 +36,17 @@ twitter (X) : @holyaustin
 
 <https://youtu.be/Ti4RCKNeKuA> 
 
-Twitter : https://twitter.com/holyaustin/status/1764812050184786130
+Twitter : https://twitter.com/Galleria_Verse/status/1776410401225293900
 
 ### 6. The contract address(es) or website URLs of your deployed application, either on a testnet of your choice or mainnet of a platform of choice
 
-<https://testnet.bscscan.com/address/0x5f04718FD5A7a499a0d6a95A5861a8648f160122>
+<https://devnet.neonscan.org/address/0xa6D6f4556B022c0C7051d62E071c0ACecE5a1228>
 
-<https://testnet.bscscan.com/address/0xA2F763342Bc9dfa21471C24496a700DB61D8Cde4>
+<https://devnet.neonscan.org/address/0xe078fe7A93017F8e18c1C52E79632d0B94c56c26>
 
-<https://testnet.bscscan.com/address/0xD2D6181276c608ca5208955fb68D27332ccCD264>
+<https://devnet.neonscan.org/address/0x8D36089AB6eFdB3FEb2D8Ed42F7eC80f3c6d2b11>
+
+<https://devnet.neonscan.org/address/0x5E4e5347eB417982375Ef9BDe0B77F4322FCF79F>
 
 
 ## Tech Stack Used
